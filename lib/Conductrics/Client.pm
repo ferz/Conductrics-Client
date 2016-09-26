@@ -190,10 +190,10 @@ you can provide list of names:
     $client->define_goals('micky mouse','pluto');
 
 or can provide a list of hashref:
-    $client->define_goals({mame=>'micky mouse'}.{name=>'pluto'});
+    $client->define_goals({name=>'micky mouse'}.{name=>'pluto'});
 
 with codes too:
-    $client->define_goals({code=>1, mame=>'micky mouse'}.{code=>2, name=>'pluto'});
+    $client->define_goals({code=>1, name=>'micky mouse'}.{code=>2, name=>'pluto'});
 
 or calling define_goal()
 
